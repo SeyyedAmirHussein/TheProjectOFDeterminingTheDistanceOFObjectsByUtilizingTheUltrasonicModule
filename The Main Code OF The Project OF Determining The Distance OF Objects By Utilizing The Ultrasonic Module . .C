@@ -29,17 +29,17 @@ void loop () {
 
 
   digitalWrite (Trigger, LOW);
-  delayMicroseconds (2);                                                                                           // Running the Delay Function (2 Microseconds) . :
+  delayMicroseconds (2);                                                                                           // Running The Delay Function (2 Microseconds) . :
   digitalWrite (Trigger, HIGH);
-  delayMicroseconds (10);                                                                                        // Running the Delay Function (10 Microseconds) . :
+  delayMicroseconds (10);                                                                                        // Running The Delay Function (10 Microseconds) . :
   digitalWrite (Trigger, LOW);
   Time = pulseIn (Echo, HIGH);
   Distance = Time * 0.034 / 2;                                                                                // Set Value to Distance.
-  Serial.print (" Distance : ");                                                                             // Show the Desired Message .
-  Serial.println (Distance);                                                                                // Show the Desired Message .
-  LCD.setCursor (0, 0);                                                                                    // To run Regularly and Display the OUTPUT Below .
-  LCD.print (" Distance : ");                                                                             // Show the Desired Message .
-  LCD.print (Distance);                                                                                  // Show the Desired Message .
+  Serial.print (" Distance : ");                                                                             // Show The Desired Message .
+  Serial.println (Distance);                                                                                // Show The Desired Message .
+  LCD.setCursor (0, 0);                                                                                    // To run Regularly and Display The OUTPUT Below .
+  LCD.print (" Distance : ");                                                                             // Show The Desired Message .
+  LCD.print (Distance);                                                                                  // Show The Desired Message .
 
 
 }
