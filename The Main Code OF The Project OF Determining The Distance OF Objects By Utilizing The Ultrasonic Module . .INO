@@ -2,7 +2,7 @@
 
 // In this program, We want to determine the distance of the Objects by utilizing the Ultrasonic Module and then display it on the LCD Screen .
 
-// The Main Code OF The Project OF Determining The Distance OF Objects By Utilizing The Ultrasonic Module . .INO .
+// The Main Code OF The Project OF Determining The Distance OF Objects By Utilizing The Ultrasonic Module . . INO . .
 
 
 
